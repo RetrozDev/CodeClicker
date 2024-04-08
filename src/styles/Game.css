@@ -1,0 +1,48 @@
+.Game {
+  min-width: 100%;
+  min-height: 100%;
+  background: rgb(128, 55, 156);
+  color: aliceblue;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.Game main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.Game main button {
+  width: 50%;
+}
+.Game main img {
+  width: 50%;
+}
+.Game aside {
+  min-height: 100vh;
+  background-color: #108de0;
+  border-left: solid;
+}
+.Game aside h1 {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.155);
+  border-bottom: solid;
+  padding: 5px;
+}
+.Game aside .autoclicks {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.Game .clicker {
+  transition: transform 0.2s ease;
+}
+
+.Game .clicker:active {
+  transition: transform 0.2s ease;
+  scale: 1.1;
+}

@@ -1,0 +1,45 @@
+.Home {
+  font-family: var(--8bit);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  min-width: 100vw;
+  min-height: 100vh;
+  background: rgb(128, 55, 156);
+  color: aliceblue;
+}
+
+.Home h1 {
+  margin: 5%;
+}
+
+.Home footer {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 10px;
+}
+
+.Home footer p a {
+    color: aliceblue;
+}
+
+.Home .buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.Home .buttons a {
+  padding: 10px;
+  margin: 20px;
+  width: 40%;
+  text-transform: uppercase;
+  border-image-repeat: repeat;
+  color: aliceblue;
+}
+
